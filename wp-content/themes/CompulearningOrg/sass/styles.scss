@@ -16,6 +16,9 @@ LAYOUT
 	width: 1024px !important; //No responsive
 }
 
+body{
+	text-rendering: optimizeLegibility;
+}
 
 /* ==================================================================
 HEADER
@@ -190,30 +193,37 @@ footer ul
 {
 	list-style: none;
 }
-footer ul li {
-	font-size: em(14px);
-}
-footer ul.container_info {
+footer .container_info {
 	height: 70px;
 	padding-left: 0;
+	font-size: em(14px);
+
+	p{
+		margin: 0;
+	}
 }
-footer ul.container_bottom_nav
+footer .container_bottom_nav
 {
 	padding-left: 0;
+
+	ul{
+		float: right;
+	}
 }
-footer ul.container_bottom_nav li
+footer .container_bottom_nav li
 {
 	float: right;
 	margin-left: 5px;
 	font-weight: bold;
 	font-size: em(13px);
+	text-transform: uppercase;
 }
-footer ul.container_bottom_nav li a
+footer .container_bottom_nav li a
 {
 	text-decoration: none;
 }
-footer ul.container_bottom_nav li:hover a,
-footer ul.container_bottom_nav li.active a
+footer .container_bottom_nav li:hover a,
+footer .container_bottom_nav li.active a
 {
 	color: $color_accent;
 }
@@ -861,6 +871,14 @@ Index Styles
 /* ==================================================================
 Nosotros Styles
 =====================================================================*/
+body.page-id-6,
+body.page-id-8,
+body.page-id-10{
+	.main_content{
+		padding: 60px 0 120px 0;
+
+	}
+}
 
 .container_nosotros
 {
@@ -881,6 +899,12 @@ Nosotros Styles
 {
 	opacity: 0;
 	transition: all 2s ease-in;
+	overflow: hidden;
+
+	img{
+		width: auto;
+		height: 100%;
+	}
 }
 #owl_nosotros .owl-item.active
 {
@@ -1047,12 +1071,23 @@ Contáctenos Styles
 =====================================================================*/
 .container_contactenos h1
 {
-	padding-left: 0;	
+	padding-left: 0;
+	margin-bottom: 50px;	
 }
 .container_contactenos form
 {
 	width: 100%;
 	padding: 10% 13%;
+
+	> p{
+		font-weight: bold;
+		font-size: em(14px);
+
+		input{
+			margin-top: 5px;
+		}
+	}
+
 }
 .container_slider_contactenos
 {
@@ -1080,7 +1115,8 @@ Contáctenos Styles
 }
 #owl_contactenos
 {
-	margin: 15px 0; 
+	margin: 15px 0;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 
 }
 #owl_contactenos .owl-item .item
