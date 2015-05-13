@@ -2,6 +2,9 @@ $(document).ready(function(){
 	mainSlider();
 	owl_testimonial();
 	socialMenu();
+	sliderNosotros();
+	owlMethod();
+	owlContactenos();
 });//End doc ready
 
 
@@ -60,4 +63,44 @@ function socialMenu(){
 }
 
 
+function sliderNosotros(){
+	$("#owl_nosotros").owlCarousel({
+		items: 1,
+    	navigation : true,
+    	navigationText: ['<','>'],
+    	pagination: true,
+    	paginationNumbers: true,
+    	addClassActive: true,
+    	paginationSpeed : 400,
+    	singleItem:true,
+    	autoPlay: false,
+    	stopOnHover: true
+	});
+	var totalSlides = $("#owl_nosotros .owl-pagination .owl-page").length;
+	//console.log(totalSlides);
+	$("#owl_nosotros .owl-pagination").append('<div class="total_Slide"> - '+ totalSlides +'</div>');
+}
 
+function owlMethod(){
+	$("#owl_metodo").owlCarousel({
+		items: 1,
+    	pagination: true,
+    	paginationNumbers: true,
+    	addClassActive: true,
+	});
+}
+
+function owlContactenos(){
+	$("#owl_contactenos").owlCarousel({
+		items: 1,
+		pagination: true,
+		paginationNumbers: true,
+		addClassActive: true,
+	});
+
+	$("#owl_contactenos .owl-pagination .owl-page").attr('id', function(i) {
+			return 'slide'+(i+1);
+	});
+	$("#owl_contactenos #slide1 .owl-numbers").html('Indicaciones');
+	$("#owl_contactenos #slide2 .owl-numbers").html('Mapa');
+}

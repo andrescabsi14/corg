@@ -33,7 +33,7 @@
 		<div class="main_header row">
 			<div class="container_main_nav container">
 				<div class="container_logo col-xs-2">
-					<a href="index.html"><div class="logo"></div></a>
+					<a href="/"><div class="logo"></div></a>
 				</div>
 				<ul class="container_main_nav col-xs-9 pull-right">
 					<?php
