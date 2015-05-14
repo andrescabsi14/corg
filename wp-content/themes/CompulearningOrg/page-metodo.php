@@ -31,7 +31,7 @@
 
 					</div>
 				</div>
-				<a class="green_link col-xs-offset-4 col-xs-4" href="http://compulearning2.azurewebsites.net/instrucciones.html">Más sobre cómo descargar e Instalar</a>
+				<a class="green_link col-xs-offset-4 col-xs-4" href="<? the_field('como_descargar_e_instalar') ?>">Más sobre cómo descargar e Instalar</a>
 			</div>
 		</article>
 	</section>
