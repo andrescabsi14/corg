@@ -6,6 +6,7 @@
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link href="<?php bloginfo('template_directory'); ?>/stylesheets/styles.css" rel="stylesheet" type="text/css" />
 	<link href="<?php bloginfo('template_directory'); ?>/stylesheets/owl.carouselv2.css" rel="stylesheet" type="text/css" />
+	
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -45,7 +46,7 @@
 					 ?>
 					<?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 						<li>
-							<a href="<?php the_permalink(); ?>">
+							<a href="<?php the_field('link'); ?>">
 								<div clasS="img"><span style="background: url('<?php the_field( "icono" ); ?>') no-repeat center;"></span></div>
 								<div class="container_nav_txt">
 									<span><?php the_title(); ?></span>
