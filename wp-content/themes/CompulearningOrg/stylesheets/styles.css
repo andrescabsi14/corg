@@ -10936,42 +10936,24 @@ Método Styles
 /* line 1193, ../sass/styles.scss */
 #owl_metodo {
   margin: 15px 0;
-  width: 632px;
 }
 
-/* line 1199, ../sass/styles.scss */
+/* line 1197, ../sass/styles.scss */
 #owl_metodo .owl-item {
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
   border: solid 2px #fff;
   max-width: 632px;
   height: 338px;
   overflow: hidden;
-  display: none;
-}
-/* line 1208, ../sass/styles.scss */
-#owl_metodo .owl-item.active {
-  display: block;
 }
 
-/* line 1212, ../sass/styles.scss */
-#owl_metodo .owl-pagination .owl-page {
-  cursor: pointer;
-}
-
-/* line 1215, ../sass/styles.scss */
+/* line 1205, ../sass/styles.scss */
 #owl_metodo .owl-item .item {
   padding-top: 0;
   margin: 0;
 }
 
-/* line 1221, ../sass/styles.scss */
-#owl_metodo .owl-item .item img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-/* line 1227, ../sass/styles.scss */
+/* line 1210, ../sass/styles.scss */
 #owl_metodo .owl-page {
   padding: 13px;
   width: 53px;
@@ -10987,25 +10969,25 @@ Método Styles
   transition: all 0.3s ease;
 }
 
-/* line 1242, ../sass/styles.scss */
+/* line 1225, ../sass/styles.scss */
 #owl_metodo .owl-page:hover,
 #owl_metodo .owl-page.active {
   background: #4EA635;
   color: #fff;
 }
 
-/* line 1249, ../sass/styles.scss */
+/* line 1232, ../sass/styles.scss */
 #owl_metodo .owl-item {
   opacity: 0;
   transition: all 2s ease-in;
 }
 
-/* line 1254, ../sass/styles.scss */
+/* line 1237, ../sass/styles.scss */
 #owl_metodo .owl-item.active {
   opacity: 1;
 }
 
-/* line 1259, ../sass/styles.scss */
+/* line 1242, ../sass/styles.scss */
 a.green_link {
   color: #fff;
   display: block;
@@ -11036,7 +11018,7 @@ a.green_link {
   /* W3C */
 }
 
-/* line 1282, ../sass/styles.scss */
+/* line 1265, ../sass/styles.scss */
 a.green_link:hover {
   background: #3d9e3f;
   /* Old browsers */
@@ -11059,69 +11041,69 @@ a.green_link:hover {
 /* ==================================================================
 Contáctenos Styles
 =====================================================================*/
-/* line 1298, ../sass/styles.scss */
+/* line 1281, ../sass/styles.scss */
 .container_contactenos h1 {
   padding-left: 0;
   margin-bottom: 50px;
 }
 
-/* line 1303, ../sass/styles.scss */
+/* line 1286, ../sass/styles.scss */
 .container_contactenos form {
   width: 100%;
   padding: 10% 13%;
 }
-/* line 1308, ../sass/styles.scss */
+/* line 1291, ../sass/styles.scss */
 .container_contactenos form > p {
   font-weight: bold;
   font-size: 0.875em;
 }
-/* line 1312, ../sass/styles.scss */
+/* line 1295, ../sass/styles.scss */
 .container_contactenos form > p input {
   margin-top: 5px;
 }
 
-/* line 1318, ../sass/styles.scss */
+/* line 1301, ../sass/styles.scss */
 .container_slider_contactenos {
   margin-bottom: 30px;
 }
 
-/* line 1322, ../sass/styles.scss */
+/* line 1305, ../sass/styles.scss */
 .container_slider_contactenos h3 {
   font-size: 1.875em;
   margin-top: 10px;
 }
 
-/* line 1327, ../sass/styles.scss */
+/* line 1310, ../sass/styles.scss */
 .container_slider_contactenos h4 {
   font-family: bebas, sans-serif;
   color: #448CD4;
   font-size: 1.25em;
 }
 
-/* line 1333, ../sass/styles.scss */
+/* line 1316, ../sass/styles.scss */
 .container_slider_contactenos p {
   margin: 0;
   font-size: 0.75em;
 }
 
-/* line 1338, ../sass/styles.scss */
+/* line 1321, ../sass/styles.scss */
 .container_slider_contactenos p strong {
   font-family: bebas, sans-serif;
 }
 
-/* line 1342, ../sass/styles.scss */
+/* line 1325, ../sass/styles.scss */
 #owl_contactenos {
   margin: 15px 0;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
-/* line 1348, ../sass/styles.scss */
+/* line 1331, ../sass/styles.scss */
 #owl_contactenos .owl-item .item {
   padding-top: 0;
   margin: 0;
 }
 
-/* line 1355, ../sass/styles.scss */
+/* line 1338, ../sass/styles.scss */
 #owl_contactenos .owl-wrapper-outer {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   width: 466px;
@@ -11129,26 +11111,26 @@ Contáctenos Styles
   overflow: hidden;
 }
 
-/* line 1362, ../sass/styles.scss */
+/* line 1345, ../sass/styles.scss */
 #owl_contactenos .owl-pagination {
   text-align: right;
   width: 467px;
 }
 
-/* line 1367, ../sass/styles.scss */
+/* line 1350, ../sass/styles.scss */
 #owl_contactenos .owl-page {
   display: inline-block;
   margin: 7px 0px 0 22px;
   font-weight: bold;
 }
 
-/* line 1373, ../sass/styles.scss */
+/* line 1356, ../sass/styles.scss */
 #owl_contactenos .owl-page:hover .owl-numbers,
 #owl_contactenos .owl-page.active .owl-numbers {
   color: #3c7f29;
 }
 
-/* line 1378, ../sass/styles.scss */
+/* line 1361, ../sass/styles.scss */
 #owl_contactenos .owl-numbers {
   font-size: 0.875em;
   color: #0b0b0b;
@@ -11157,39 +11139,39 @@ Contáctenos Styles
 /* ==================================================================
 Compra Styles
 =====================================================================*/
-/* line 1388, ../sass/styles.scss */
+/* line 1371, ../sass/styles.scss */
 .container_compra_curso {
   margin-bottom: 30px;
 }
 
-/* line 1392, ../sass/styles.scss */
+/* line 1375, ../sass/styles.scss */
 .container_compra_curso h1 {
   padding-left: 0;
 }
 
-/* line 1396, ../sass/styles.scss */
+/* line 1379, ../sass/styles.scss */
 .container_compra_curso h3 {
   border-bottom: solid 1px #dfdfdf;
   margin-bottom: 20px;
 }
 
-/* line 1401, ../sass/styles.scss */
+/* line 1384, ../sass/styles.scss */
 .container_compra_curso p {
   font-size: 0.875em;
   text-align: left;
 }
 
-/* line 1406, ../sass/styles.scss */
+/* line 1389, ../sass/styles.scss */
 .container_compra_curso .container_form {
   padding-left: 50px;
 }
 
-/* line 1412, ../sass/styles.scss */
+/* line 1395, ../sass/styles.scss */
 .container_compra_curso form {
   width: 315px;
 }
 
-/* line 1416, ../sass/styles.scss */
+/* line 1399, ../sass/styles.scss */
 .container_compra_curso .boton-landing-profeexcel {
   width: 273px;
   height: 35px;
@@ -11204,25 +11186,25 @@ Compra Styles
   cursor: pointer;
 }
 
-/* line 1430, ../sass/styles.scss */
+/* line 1413, ../sass/styles.scss */
 .container_compra_curso .boton-landing-profeexcel:hover {
   background-color: #5EA30D;
 }
 
-/* line 1434, ../sass/styles.scss */
+/* line 1417, ../sass/styles.scss */
 .container_compra_curso #form_profeexcel label {
   font-family: arial;
   font-size: 15px;
   color: #5B8926;
 }
 
-/* line 1440, ../sass/styles.scss */
+/* line 1423, ../sass/styles.scss */
 .container_compra_curso .input_formulario_Ccmp,
 .container_compra_curso .input_formulario_cupon {
   padding: 16px 12px;
 }
 
-/* line 1445, ../sass/styles.scss */
+/* line 1428, ../sass/styles.scss */
 .container_compra_curso .input_formulario_Ccmp {
   display: block;
   width: 100%;
@@ -11242,7 +11224,7 @@ Compra Styles
   font-family: helvetica,arial;
 }
 
-/* line 1464, ../sass/styles.scss */
+/* line 1447, ../sass/styles.scss */
 .container_compra_curso .input_formulario_Ccmp2 {
   font-size: 0.875em;
   color: #555;
@@ -11252,7 +11234,7 @@ Compra Styles
   font-family: helvetica,arial;
 }
 
-/* line 1473, ../sass/styles.scss */
+/* line 1456, ../sass/styles.scss */
 .container_compra_curso #Amount {
   box-shadow: none;
   display: inline-block;
@@ -11261,12 +11243,12 @@ Compra Styles
   margin-left: 0px;
 }
 
-/* line 1481, ../sass/styles.scss */
+/* line 1464, ../sass/styles.scss */
 .container_compra_curso .input_formulario_Ccmp:hover {
   border: 1px solid #428bca;
 }
 
-/* line 1485, ../sass/styles.scss */
+/* line 1468, ../sass/styles.scss */
 .container_compra_curso .input_formulario_cupon {
   display: inline-block;
   width: 100%;
@@ -11286,7 +11268,7 @@ Compra Styles
   font-family: helvetica,arial;
 }
 
-/* line 1504, ../sass/styles.scss */
+/* line 1487, ../sass/styles.scss */
 .container_compra_curso .Curso-titulo-formulario-comp,
 .labels-formulario-comp {
   display: block;
@@ -11297,7 +11279,7 @@ Compra Styles
   margin-bottom: 10px;
 }
 
-/* line 1514, ../sass/styles.scss */
+/* line 1497, ../sass/styles.scss */
 .container_compra_curso .Curso-titulo-formulario-comp2 {
   color: #3E3E3E;
   font-family: asap, sans-serif;
@@ -11305,7 +11287,7 @@ Compra Styles
   display: inline-block;
 }
 
-/* line 1521, ../sass/styles.scss */
+/* line 1504, ../sass/styles.scss */
 .container_compra_curso .cat_dropdown-formulario-comp {
   display: inline-block;
   margin-bottom: 10px;
@@ -11313,12 +11295,12 @@ Compra Styles
   display: block;
 }
 
-/* line 1528, ../sass/styles.scss */
+/* line 1511, ../sass/styles.scss */
 .container_compra_curso .invisible {
   display: none;
 }
 
-/* line 1532, ../sass/styles.scss */
+/* line 1515, ../sass/styles.scss */
 .container_compra_curso .boton-formulario-comp {
   display: block;
   color: #FFFFFF;
@@ -11338,18 +11320,18 @@ Compra Styles
   border-radius: 4px;
 }
 
-/* line 1551, ../sass/styles.scss */
+/* line 1534, ../sass/styles.scss */
 .container_compra_curso .boton-formulario-comp:hover {
   background-color: #4CAE4C;
 }
 
-/* line 1555, ../sass/styles.scss */
+/* line 1538, ../sass/styles.scss */
 .container_compra_curso #agrupacion-monto {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 1560, ../sass/styles.scss */
+/* line 1543, ../sass/styles.scss */
 .container_compra_curso .boton-aplicar-boton,
 .boton-aplicar-boton a {
   padding-top: 7px;
@@ -11360,7 +11342,7 @@ Compra Styles
   border-radius: 4px;
 }
 
-/* line 1570, ../sass/styles.scss */
+/* line 1553, ../sass/styles.scss */
 .container_compra_curso .cat_dropdownCompulearningOrg {
   width: 316px;
   margin-bottom: 20px;

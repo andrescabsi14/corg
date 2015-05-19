@@ -1192,10 +1192,8 @@ Método Styles
 =====================================================================*/
 #owl_metodo
 {
-	margin: 15px 0;
-	width: 632px;
+	margin: 15px 0; 
 }
-
 #owl_metodo .owl-item
 {
 	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
@@ -1203,27 +1201,12 @@ Método Styles
 	max-width: 632px;
 	height: 338px;
 	overflow: hidden;
-	display: none;
-
-	&.active{
-		display: block;
-	}
-}
-#owl_metodo .owl-pagination .owl-page{
-	cursor: pointer;
 }
 #owl_metodo .owl-item .item
 {
 	padding-top: 0;
 	margin: 0;
 }
-
-#owl_metodo .owl-item .item img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 #owl_metodo .owl-page
 {
 	padding: 13px;
