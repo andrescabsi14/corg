@@ -1053,7 +1053,7 @@ Index Styles
 }
 .testimonials_main_title_container
 {
-	width: 949px;
+	width: 835px;
 	display: block;
 	height: 200px;
 	position: relative;
@@ -1062,7 +1062,7 @@ Index Styles
 .testimonials_main_title
 {
 	position: absolute;
-	right: 0;
+	right: -113px;
 	top: 129px;
 	color: $color_primary;
 	font-size: em(30px);
@@ -1203,11 +1203,6 @@ Método Styles
 	max-width: 632px;
 	height: 338px;
 	overflow: hidden;
-	display: none;
-
-	&.active{
-		display: block;
-	}
 }
 #owl_metodo .owl-pagination .owl-page{
 	cursor: pointer;
@@ -1338,12 +1333,6 @@ Contáctenos Styles
 .container_slider_contactenos p strong
 {
 	font-family: bebas, sans-serif;
-}
-#owl_contactenos
-{
-	margin: 15px 0;
-	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-
 }
 #owl_contactenos .owl-item .item
 {

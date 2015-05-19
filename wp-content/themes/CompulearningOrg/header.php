@@ -5,7 +5,12 @@
 	<title><?php bloginfo('name'); ?> | <?php the_title(); ?></title>
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link href="<?php bloginfo('template_directory'); ?>/stylesheets/styles.css" rel="stylesheet" type="text/css" />
-	<link href="<?php bloginfo('template_directory'); ?>/stylesheets/owl.carouselv2.css" rel="stylesheet" type="text/css" />
+	<?php if ( is_front_page() ) { ?> 
+			<link href="<?php bloginfo('template_directory'); ?>/stylesheets/owl.carouselv2.css" rel="stylesheet" type="text/css" />
+	<?php } else { ?>
+			<link href="<?php bloginfo('template_directory'); ?>/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+	<?php } ?> <!-- End footer Conditional -->
+	
 	
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
