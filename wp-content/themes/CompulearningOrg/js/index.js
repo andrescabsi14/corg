@@ -105,15 +105,15 @@ function owlMethod(){
 
 function owlContactenos(){
 	$("#owl_contactenos").owlCarousel({
-		items: 1,
-		pagination: true,
-		paginationNumbers: true,
-		addClassActive: true,
+		navigation : false, // Show next and prev buttons
+		slideSpeed : 300,
+		paginationSpeed : 400,
+		singleItem:true
 	});
 
 	$("#owl_contactenos .owl-pagination .owl-page").attr('id', function(i) {
 			return 'slide'+(i+1);
 	});
-	$("#owl_contactenos #slide1 .owl-numbers").html('Indicaciones');
-	$("#owl_contactenos #slide2 .owl-numbers").html('Mapa');
+	$("#owl_contactenos #slide1 span").html('Indicaciones');
+	$("#owl_contactenos #slide2 span").html('Mapa');
 }

@@ -1340,7 +1340,6 @@ Contáctenos Styles
 	margin: 0;
 }
 
-
 #owl_contactenos .owl-wrapper-outer
 {
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
@@ -1358,6 +1357,11 @@ Contáctenos Styles
 	display: inline-block;
 	margin: 7px 0px 0 22px;
 	font-weight: bold;
+	font-size: 12px;
+
+	&.active{
+		color: $green;
+	}
 }
 #owl_contactenos .owl-page:hover .owl-numbers,
 #owl_contactenos .owl-page.active .owl-numbers

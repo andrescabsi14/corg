@@ -11110,7 +11110,7 @@ Contáctenos Styles
   margin: 0;
 }
 
-/* line 1344, ../sass/styles.scss */
+/* line 1343, ../sass/styles.scss */
 #owl_contactenos .owl-wrapper-outer {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   width: 466px;
@@ -11118,26 +11118,31 @@ Contáctenos Styles
   overflow: hidden;
 }
 
-/* line 1351, ../sass/styles.scss */
+/* line 1350, ../sass/styles.scss */
 #owl_contactenos .owl-pagination {
   text-align: right;
   width: 467px;
 }
 
-/* line 1356, ../sass/styles.scss */
+/* line 1355, ../sass/styles.scss */
 #owl_contactenos .owl-page {
   display: inline-block;
   margin: 7px 0px 0 22px;
   font-weight: bold;
+  font-size: 12px;
+}
+/* line 1362, ../sass/styles.scss */
+#owl_contactenos .owl-page.active {
+  color: #4EA635;
 }
 
-/* line 1362, ../sass/styles.scss */
+/* line 1366, ../sass/styles.scss */
 #owl_contactenos .owl-page:hover .owl-numbers,
 #owl_contactenos .owl-page.active .owl-numbers {
   color: #3c7f29;
 }
 
-/* line 1367, ../sass/styles.scss */
+/* line 1371, ../sass/styles.scss */
 #owl_contactenos .owl-numbers {
   font-size: 0.875em;
   color: #0b0b0b;
@@ -11146,39 +11151,39 @@ Contáctenos Styles
 /* ==================================================================
 Compra Styles
 =====================================================================*/
-/* line 1377, ../sass/styles.scss */
+/* line 1381, ../sass/styles.scss */
 .container_compra_curso {
   margin-bottom: 30px;
 }
 
-/* line 1381, ../sass/styles.scss */
+/* line 1385, ../sass/styles.scss */
 .container_compra_curso h1 {
   padding-left: 0;
 }
 
-/* line 1385, ../sass/styles.scss */
+/* line 1389, ../sass/styles.scss */
 .container_compra_curso h3 {
   border-bottom: solid 1px #dfdfdf;
   margin-bottom: 20px;
 }
 
-/* line 1390, ../sass/styles.scss */
+/* line 1394, ../sass/styles.scss */
 .container_compra_curso p {
   font-size: 0.875em;
   text-align: left;
 }
 
-/* line 1395, ../sass/styles.scss */
+/* line 1399, ../sass/styles.scss */
 .container_compra_curso .container_form {
   padding-left: 50px;
 }
 
-/* line 1401, ../sass/styles.scss */
+/* line 1405, ../sass/styles.scss */
 .container_compra_curso form {
   width: 315px;
 }
 
-/* line 1405, ../sass/styles.scss */
+/* line 1409, ../sass/styles.scss */
 .container_compra_curso .boton-landing-profeexcel {
   width: 273px;
   height: 35px;
@@ -11193,25 +11198,25 @@ Compra Styles
   cursor: pointer;
 }
 
-/* line 1419, ../sass/styles.scss */
+/* line 1423, ../sass/styles.scss */
 .container_compra_curso .boton-landing-profeexcel:hover {
   background-color: #5EA30D;
 }
 
-/* line 1423, ../sass/styles.scss */
+/* line 1427, ../sass/styles.scss */
 .container_compra_curso #form_profeexcel label {
   font-family: arial;
   font-size: 15px;
   color: #5B8926;
 }
 
-/* line 1429, ../sass/styles.scss */
+/* line 1433, ../sass/styles.scss */
 .container_compra_curso .input_formulario_Ccmp,
 .container_compra_curso .input_formulario_cupon {
   padding: 16px 12px;
 }
 
-/* line 1434, ../sass/styles.scss */
+/* line 1438, ../sass/styles.scss */
 .container_compra_curso .input_formulario_Ccmp {
   display: block;
   width: 100%;
@@ -11231,7 +11236,7 @@ Compra Styles
   font-family: helvetica,arial;
 }
 
-/* line 1453, ../sass/styles.scss */
+/* line 1457, ../sass/styles.scss */
 .container_compra_curso .input_formulario_Ccmp2 {
   font-size: 0.875em;
   color: #555;
@@ -11241,7 +11246,7 @@ Compra Styles
   font-family: helvetica,arial;
 }
 
-/* line 1462, ../sass/styles.scss */
+/* line 1466, ../sass/styles.scss */
 .container_compra_curso #Amount {
   box-shadow: none;
   display: inline-block;
@@ -11250,12 +11255,12 @@ Compra Styles
   margin-left: 0px;
 }
 
-/* line 1470, ../sass/styles.scss */
+/* line 1474, ../sass/styles.scss */
 .container_compra_curso .input_formulario_Ccmp:hover {
   border: 1px solid #428bca;
 }
 
-/* line 1474, ../sass/styles.scss */
+/* line 1478, ../sass/styles.scss */
 .container_compra_curso .input_formulario_cupon {
   display: inline-block;
   width: 100%;
@@ -11275,7 +11280,7 @@ Compra Styles
   font-family: helvetica,arial;
 }
 
-/* line 1493, ../sass/styles.scss */
+/* line 1497, ../sass/styles.scss */
 .container_compra_curso .Curso-titulo-formulario-comp,
 .labels-formulario-comp {
   display: block;
@@ -11286,7 +11291,7 @@ Compra Styles
   margin-bottom: 10px;
 }
 
-/* line 1503, ../sass/styles.scss */
+/* line 1507, ../sass/styles.scss */
 .container_compra_curso .Curso-titulo-formulario-comp2 {
   color: #3E3E3E;
   font-family: asap, sans-serif;
@@ -11294,7 +11299,7 @@ Compra Styles
   display: inline-block;
 }
 
-/* line 1510, ../sass/styles.scss */
+/* line 1514, ../sass/styles.scss */
 .container_compra_curso .cat_dropdown-formulario-comp {
   display: inline-block;
   margin-bottom: 10px;
@@ -11302,12 +11307,12 @@ Compra Styles
   display: block;
 }
 
-/* line 1517, ../sass/styles.scss */
+/* line 1521, ../sass/styles.scss */
 .container_compra_curso .invisible {
   display: none;
 }
 
-/* line 1521, ../sass/styles.scss */
+/* line 1525, ../sass/styles.scss */
 .container_compra_curso .boton-formulario-comp {
   display: block;
   color: #FFFFFF;
@@ -11327,18 +11332,18 @@ Compra Styles
   border-radius: 4px;
 }
 
-/* line 1540, ../sass/styles.scss */
+/* line 1544, ../sass/styles.scss */
 .container_compra_curso .boton-formulario-comp:hover {
   background-color: #4CAE4C;
 }
 
-/* line 1544, ../sass/styles.scss */
+/* line 1548, ../sass/styles.scss */
 .container_compra_curso #agrupacion-monto {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 1549, ../sass/styles.scss */
+/* line 1553, ../sass/styles.scss */
 .container_compra_curso .boton-aplicar-boton,
 .boton-aplicar-boton a {
   padding-top: 7px;
@@ -11349,7 +11354,7 @@ Compra Styles
   border-radius: 4px;
 }
 
-/* line 1559, ../sass/styles.scss */
+/* line 1563, ../sass/styles.scss */
 .container_compra_curso .cat_dropdownCompulearningOrg {
   width: 316px;
   margin-bottom: 20px;
