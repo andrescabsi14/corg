@@ -83,10 +83,23 @@ function sliderNosotros(){
 
 function owlMethod(){
 	$("#owl_metodo").owlCarousel({
-		items: 1,
     	pagination: true,
     	paginationNumbers: true,
     	addClassActive: true,
+    	singleItem:true,
+    	autoPlay: false,
+    	stopOnHover: true,
+    	navigation : false, // Show next and prev buttonsx
+		slideSpeed : 300,
+		paginationSpeed : 400,
+		singleItem:true
+
+		// "singleItem:true" is a shortcut for:
+		// items : 1, 
+		// itemsDesktop : false,
+		// itemsDesktopSmall : false,
+		// itemsTablet: false,
+		// itemsMobile : false
 	});
 }
 
