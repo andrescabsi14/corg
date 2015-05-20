@@ -111,9 +111,9 @@ function owlContactenos(){
 		singleItem:true
 	});
 
-	$("#owl_contactenos .owl-pagination .owl-page").attr('id', function(i) {
-			return 'slide'+(i+1);
-	});
-	$("#owl_contactenos #slide1 span").html('Indicaciones');
-	$("#owl_contactenos #slide2 span").html('Mapa');
+	// $("#owl_contactenos .owl-pagination .owl-page").attr('id', function(i) {
+	// 		return 'slide'+(i+1);
+	// });
+	// $("#owl_contactenos #slide1 span").html('Indicaciones');
+	// $("#owl_contactenos #slide2 span").html('Mapa');
 }

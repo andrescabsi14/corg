@@ -50,14 +50,11 @@
 	</footer>
 	<script src="<?php bloginfo('template_directory'); ?>/js/jquery-2.1.1.min.js"></script>
 	<script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
-
-
 	<?php if ( is_front_page() ) { ?> 
-			<script src="<?php bloginfo('template_directory'); ?>/js/owl.carousel_v2.min.js"></script>
+		<script src="<?php bloginfo('template_directory'); ?>/js/owl.carousel_v2.min.js"></script>
 	<?php } else { ?>
-			<script src="<?php bloginfo('template_directory'); ?>/js/owl.carousel.min.js"></script>
+		<script src="<?php bloginfo('template_directory'); ?>/js/owl.carousel.min.js"></script>
 	<?php } ?> <!-- End footer Conditional -->
-
 	<script src="<?php bloginfo('template_directory'); ?>/js/index.js"></script>
 
 </body>
