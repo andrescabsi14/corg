@@ -11,11 +11,11 @@ $(document).ready(function(){
 // Main Slider
 function mainSlider(){
 
-
-	//SLIDER 1
-	$('#carousel-example-generic').carousel({
-		interval: 10000
-	});
+	if ( $('body').hasClass('home') ) {
+		//SLIDER 1
+		$('#carousel-example-generic').carousel({
+			interval: 10000
+		});
 
 		$('.carousel-indicators li').click(function(){
 			$('#carousel-example-generic').carousel('pause');
@@ -38,7 +38,7 @@ function mainSlider(){
 		    // Update location based on slide (index is 0-based)
 		    window.location.hash = "#"+ parseInt($('#carousel-example-generic .carousel-inner .item.active').index()+1);
 		});
-
+	};
 
 }
 // Navigation Events
@@ -111,9 +111,9 @@ function owlContactenos(){
 		singleItem:true
 	});
 
-	// $("#owl_contactenos .owl-pagination .owl-page").attr('id', function(i) {
-	// 		return 'slide'+(i+1);
-	// });
-	// $("#owl_contactenos #slide1 span").html('Indicaciones');
-	// $("#owl_contactenos #slide2 span").html('Mapa');
+	$("#owl_contactenos .owl-pagination .owl-page").attr('id', function(i) {
+			return 'slide'+(i+1);
+	});
+	$("#owl_contactenos #slide1 span").html('Indicaciones');
+	$("#owl_contactenos #slide2 span").html('Mapa');
 }
