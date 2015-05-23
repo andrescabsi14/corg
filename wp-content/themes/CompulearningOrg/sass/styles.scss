@@ -1589,3 +1589,46 @@ Compra Styles
 	margin-bottom: 20px;
 }
 
+
+body.error404{
+	.main_content{
+		padding: 100px 0 130px 0;
+	}
+	.title{
+		font-size: 70px;
+	}
+}
+
+body.page-template-tpl-compra{
+	.main_content{
+		padding: 75px 0 120px 0;
+		.purchaseBtn{
+			width: 315px;
+			height: 116px;
+			position: relative;
+
+			&:after{
+				content: 'Continuar';
+				width: 152px;
+				height: 90px;
+				display: block;
+				background: url('../img/btn/buynow.png') no-repeat left top;
+				background-size: 150px 90px;
+				position: absolute;
+				left: 0;
+				top: 0;
+				line-height: 58px;
+				color: $buy_now_color;
+				font-weight: bold;
+				font-size: em(14px);
+				text-align: center;
+			}
+			form{
+				z-index: 10000000;
+				position: relative;
+				opacity: 0;
+			}
+		}
+	}
+}
+	

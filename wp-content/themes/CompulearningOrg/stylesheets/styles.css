@@ -11389,3 +11389,46 @@ Compra Styles
   width: 316px;
   margin-bottom: 20px;
 }
+
+/* line 1594, ../sass/styles.scss */
+body.error404 .main_content {
+  padding: 100px 0 130px 0;
+}
+/* line 1597, ../sass/styles.scss */
+body.error404 .title {
+  font-size: 70px;
+}
+
+/* line 1603, ../sass/styles.scss */
+body.page-template-tpl-compra .main_content {
+  padding: 75px 0 120px 0;
+}
+/* line 1605, ../sass/styles.scss */
+body.page-template-tpl-compra .main_content .purchaseBtn {
+  width: 315px;
+  height: 116px;
+  position: relative;
+}
+/* line 1610, ../sass/styles.scss */
+body.page-template-tpl-compra .main_content .purchaseBtn:after {
+  content: 'Continuar';
+  width: 152px;
+  height: 90px;
+  display: block;
+  background: url("../img/btn/buynow.png") no-repeat left top;
+  background-size: 150px 90px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 58px;
+  color: #65510F;
+  font-weight: bold;
+  font-size: 0.875em;
+  text-align: center;
+}
+/* line 1626, ../sass/styles.scss */
+body.page-template-tpl-compra .main_content .purchaseBtn form {
+  z-index: 10000000;
+  position: relative;
+  opacity: 0;
+}
